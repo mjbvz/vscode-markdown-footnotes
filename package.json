@@ -1,0 +1,35 @@
+{
+  "name": "markdown-footnotes",
+  "displayName": "markdown-footnotes",
+  "description": "Adds footnotes syntax support to VS Code's built-in markdown preview",
+  "version": "0.0.1",
+  "icon": "logo/logox128.png",
+  "publisher": "bierner",
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/mjbvz/vscode-markdown-footnotes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mjbvz/vscode-markdown-footnotes/issues"
+  },
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "contributes": {
+    "markdown.markdownItPlugins": true
+  },
+  "main": "./extension.js",
+  "scripts": {
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "vscode": "^1.0.0"
+  },
+  "dependencies": {
+    "markdown-it-footnote": "^3.0.1"
+  }
+}
