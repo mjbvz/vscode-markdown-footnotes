@@ -3,7 +3,7 @@
   "version": "0.0.5",
   "displayName": "Markdown Footnotes",
   "description": "Adds [^footnote] syntax support to VS Code's built-in markdown preview",
-  "extensionKind": "ui", 
+  "extensionKind": "ui",
   "keywords": [
     "markdown",
     "footnotes",
@@ -29,11 +29,9 @@
     "markdown.markdownItPlugins": true
   },
   "main": "./extension.js",
-  "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install"
-  },
+  "scripts": {},
   "devDependencies": {
-    "vscode": "^1.1.22"
+    "@types/vscode": "^1.33"
   },
   "dependencies": {
     "markdown-it-footnote": "^3.0.1"
