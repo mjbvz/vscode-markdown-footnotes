@@ -1,9 +1,8 @@
 {
   "name": "markdown-footnotes",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "displayName": "Markdown Footnotes",
   "description": "Adds [^footnote] syntax support to VS Code's built-in markdown preview",
-  "extensionKind": "ui",
   "keywords": [
     "markdown",
     "footnotes",

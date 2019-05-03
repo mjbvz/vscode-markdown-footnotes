@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.0.7 - May 2, 2019
+- Remote explicit `extensionKind` as it is no longer required.
+
 ## 0.0.6 - April 18, 2019
 - Set explicit `extensionKind` for VS Code compatability.
 
