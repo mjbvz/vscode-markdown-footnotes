@@ -8,7 +8,7 @@
 - Remote explicit `extensionKind` as it is no longer required.
 
 ## 0.0.6 - April 18, 2019
-- Set explicit `extensionKind` for VS Code compatability.
+- Set explicit `extensionKind` for VS Code compatibility.
 
 ## 0.0.4 - November 3, 2017
 - Multiroot ready
