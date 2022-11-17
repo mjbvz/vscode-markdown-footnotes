@@ -18,7 +18,7 @@
     "url": "https://github.com/mjbvz/vscode-markdown-footnotes/issues"
   },
   "engines": {
-    "vscode": "^1.15.0"
+    "vscode": "^1.60.0"
   },
   "categories": [
     "Other"
@@ -27,10 +27,15 @@
   "contributes": {
     "markdown.markdownItPlugins": true
   },
-  "main": "./extension.js",
-  "scripts": {},
+  "main": "./dist/extension.js",
+  "browser": "./dist/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "esbuild  src/extension.js --bundle --minify --outfile=dist/extension.js"
+  },
   "devDependencies": {
-    "@types/vscode": "^1.33"
+    "@types/vscode": "^1.60",
+    "esbuild": "^0.15.14"
   },
   "dependencies": {
     "markdown-it-footnote": "^3.0.1"
