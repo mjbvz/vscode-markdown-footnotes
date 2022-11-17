@@ -1,5 +1,9 @@
 # Change Log
 
+## 0.1.0 - November 17, 2022
+- Enable in browsers.
+- Bundle extension.
+
 ## 0.0.7 - May 2, 2019
 - Remote explicit `extensionKind` as it is no longer required.
 

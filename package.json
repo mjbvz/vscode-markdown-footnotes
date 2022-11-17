@@ -1,12 +1,13 @@
 {
   "name": "markdown-footnotes",
-  "version": "0.0.7",
+  "version": "0.1.0",
   "displayName": "Markdown Footnotes",
   "description": "Adds [^footnote] syntax support to VS Code's built-in markdown preview",
   "keywords": [
     "markdown",
     "footnotes",
-    "multi-root ready"
+    "md",
+    "documentation"
   ],
   "icon": "logo/logox128.png",
   "publisher": "bierner",
@@ -38,6 +39,6 @@
     "esbuild": "^0.15.14"
   },
   "dependencies": {
-    "markdown-it-footnote": "^3.0.1"
+    "markdown-it-footnote": "^3.0.3"
   }
 }
