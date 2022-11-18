@@ -1,5 +1,8 @@
 # Change Log
 
+## 0.1.1 - November 18, 2022
+- Fix compile.
+
 ## 0.1.0 - November 17, 2022
 - Enable in browsers.
 - Bundle extension.

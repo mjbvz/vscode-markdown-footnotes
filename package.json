@@ -1,6 +1,6 @@
 {
   "name": "markdown-footnotes",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "displayName": "Markdown Footnotes",
   "description": "Adds [^footnote] syntax support to VS Code's built-in markdown preview",
   "keywords": [
@@ -32,7 +32,7 @@
   "browser": "./dist/extension.js",
   "scripts": {
     "vscode:prepublish": "npm run compile",
-    "compile": "esbuild  src/extension.js --bundle --minify --outfile=dist/extension.js"
+    "compile": "esbuild  src/extension.js --format=cjs --bundle --minify --outfile=dist/extension.js"
   },
   "devDependencies": {
     "@types/vscode": "^1.60",
